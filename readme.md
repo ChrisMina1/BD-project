@@ -129,8 +129,6 @@ Confirm that:
 
 - Valid event objects exist under the `events/` prefix.
 - Malformed event objects exist under the `dlq/` prefix.
-- Partition paths match the UTC event timestamps used by the ingestion logic.
-- Events are assigned to the correct historical UTC time partitions, rather than being partitioned solely by ingestion time.
 
 > **Important:** S3-compatible object storage uses object keys and prefixes rather than actual directories. The folder-like structure shown in MinIO is created by the object naming convention.
 
