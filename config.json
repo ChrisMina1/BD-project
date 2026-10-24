@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "kafka_broker": "localhost:9092",
+  "minio_endpoint": "http://localhost:9000",
+  "raw_bucket": "bronze-clickstream",
+  "anomalies": {
+    "cart_abandonment": true,
+    "bot_loops": false,
+    "promo_surge": true
+  },
+  "inject_bad_events": true 
+}
